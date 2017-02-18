@@ -78,14 +78,4 @@ else {
 
 $conn->close();
 
-echo 
-'<button id=topb onclick="scrollWin()"><img id="top" src="images/top.png"></button><br><br>
-
-<script>
-function scrollWin() {
-	window.scrollTo(0, 0);
-}
-</script>
-
-'
 ?>
